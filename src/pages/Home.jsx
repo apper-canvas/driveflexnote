@@ -121,7 +121,7 @@ export default function Home() {
       >
         <div className="p-4">
           <div className="flex items-center justify-between mb-6">
-            <h1 className="text-xl font-bold text-primary">FlexNote</h1>
+            <h1 className="text-xl font-bold text-primary">NotSoIon</h1>
             <button
               onClick={() => toast.info('Settings would open here')}
               className="p-1.5 rounded-md hover:bg-surface-200 dark:hover:bg-surface-700"
