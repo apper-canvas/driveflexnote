@@ -5,6 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { AnimatePresence, motion } from 'framer-motion';
 import Home from './pages/Home';
 import NotFound from './pages/NotFound';
+import Navigation from './components/Navigation';
 import getIcon from './utils/iconUtils';
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
   const Moon = getIcon('Moon');
 
   return (
+      <Navigation isDarkMode={isDarkMode} />
     <div className="min-h-screen">
       <button
         aria-label="Toggle dark mode"
