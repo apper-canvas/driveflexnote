@@ -37,7 +37,7 @@ export default function MainFeature() {
   const X = getIcon('X');
 
   useEffect(() => {
-    localStorage.setItem('flexnote-blocks', JSON.stringify(blocks));
+    localStorage.setItem('notsoion-blocks', JSON.stringify(blocks));
   }, [blocks]);
 
   useEffect(() => {
